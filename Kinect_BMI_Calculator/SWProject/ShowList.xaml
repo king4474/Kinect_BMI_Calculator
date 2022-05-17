@@ -1,0 +1,29 @@
+﻿<Window x:Class="SWProject.ShowList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SWProject"
+        mc:Ignorable="d"
+        Title="ShowList" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnShowListDelete" Content="내용 삭제" HorizontalAlignment="Left" Margin="663,371,0,0" VerticalAlignment="Top" Width="75" Height="25" Click="btnShowListDelete_Click"/>
+        <Label Name="lblShowListSearch" Content="사용자 정보 검색 : " HorizontalAlignment="Left" Margin="117,48,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnShowListSearch" Content="검색" HorizontalAlignment="Left" Margin="663,48,0,0" VerticalAlignment="Top" Width="75" Height="26" Click="btnShowListSearch_Click"/>
+        <TextBox Name="txtShowListSearch" HorizontalAlignment="Left" Height="26" Margin="364,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="242"/>
+        <Label Name="lblShowListRRN" Content="주민등록번호 : " HorizontalAlignment="Left" Margin="49,106,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblShowListName" Content="이름 : " HorizontalAlignment="Left" Margin="49,137,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Name="lblShowListAge" Content="나이 : " HorizontalAlignment="Left" Margin="49,168,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Name="lblShowListHeight" Content="키 : " HorizontalAlignment="Left" Margin="49,199,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Name="lblShowListWeight" Content="몸무게 : " HorizontalAlignment="Left" Margin="49,230,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Name="lblShowListBMI" Content="BMI : " HorizontalAlignment="Left" Margin="49,261,0,0" VerticalAlignment="Top" Width="93"/>
+        <Label Name="lblShowListCreated" Content="생성일 : " HorizontalAlignment="Left" Margin="49,292,0,0" VerticalAlignment="Top" Width="93"/>
+        <TextBlock Name="txtShowListRRN" HorizontalAlignment="Left" Margin="209,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+        <TextBlock Name="txtShowListName" HorizontalAlignment="Left" Margin="209,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+        <TextBlock Name="txtShowListAge" HorizontalAlignment="Left" Margin="209,168,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+        <TextBlock Name="txtShowListHeight" HorizontalAlignment="Left" Margin="209,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+        <TextBlock Name="txtShowListWeight" HorizontalAlignment="Left" Margin="209,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+        <TextBlock Name="txtShowListBMI" HorizontalAlignment="Left" Margin="209,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+        <TextBlock Name="txtShowListCreated" HorizontalAlignment="Left" Margin="209,292,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="187"/>
+    </Grid>
+</Window>
